@@ -1,0 +1,12 @@
+<p>blink ratio value is: {{blinkLeft}}</p>
+<p>current blink number is: {{blinkCounter}}</p>
+<p>blink that accur into 20 seconds is: {{timeCounter}}</p>
+<p>message: {{message}}</p>
+<button mat-raised-button color="primary" routerLink="/graph" type="button" (click)="goToGraphs()">graph</button>
+<br>
+<div class="open-cam-div">
+  <!--<webcam #webcam width="320" height="240" style="background: blue"></webcam>-->
+  <video class="video" #video width="720" height="560" autoplay></video>
+  <canvas class="canvas" #canvas autoplay></canvas>
+</div>
+<!--<app-graph [blinks]="blinksPointArr">graph</app-graph>-->

@@ -1,0 +1,21 @@
+.open-cam-div{
+  position: relative;
+  display:inline-block;
+    width:320px;
+    height:480px;
+    margin: 0 auto;
+}
+
+.video {
+  position:absolute;
+  z-index:1;
+  top: 0;
+  left: 0;
+}
+
+.canvas {
+  position:relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
